@@ -1,0 +1,35 @@
+. A logic gate is a tiny electronic circuit that takes binary inputs (0 and 1) and produces an output.
+
+. it's the base for building the computer (starting from zero)
+
+. A logic gate circuit consist of three things :
+  1. Transistors :
+     These are tiny electronic switches. They control the flow of electrical current, allowing
+     a circuit to represent and manipulate binary 0s and 1s.
+  2. Connections and other circuit components :
+     Transistors are connected using conductive paths. Depending on the circuit
+     technology, components such as resistors and capacitors may also be involved.
+  3. A particular arrangement
+     The way the transistors are connected determines the logic operation.
+     One arrangement creates a NOT gate; another creates an AND, OR, or other gate.
+
+. Boolean identities :
+  1.(x AND y) = (y AND x) ---> Commulative laws
+  2.(x OR y) = (y OR x)   ---> Commulative laws
+  3.(x AND (y AND z)) = ((x AND y) AND z) ---> Associative laws
+  4.(x OR (y OR z)) = ((x OR y) OR z) ---> Associative laws
+  5.(x AND (y OR z)) = (x AND y) OR (x AND z) ---> Distributive laws
+  6.(x OR (y AND z)) = (x OR y) AND (x OR z) ---> Distributive laws
+  7.NOT(x AND y) = NOT(x) OR NOT(y) ---> De Morgan laws
+  8.NOT(x OR y) = NOT(x) AND NOT(y) ---> De Morgan laws
+  9.(x AND x) = x ---> idempotence laws
+  10.(x OR x) = x ---> idempotence laws
+
+. Any boolean expression can be expressed as AND , NOT gates only.
+  Proof:
+  1. (x NAND y) = NOT(x AND Y)
+  2. (x AND y) = NOT(x NAND y)
+
+. Logic gates perform simple logical operations.
+. Composite gates combine multiple basic operations into one circuit.
+
