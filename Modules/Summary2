@@ -33,3 +33,8 @@
 . Logic gates perform simple logical operations.
 . Composite gates combine multiple basic operations into one circuit.
 
+. HDL => Hardware Discription Language
+. Common HDLs:
+  . VHDL
+  . Verilog
+  . Other..
